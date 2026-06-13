@@ -1,0 +1,6 @@
+openai>=1.0          # Part 1: talks to the vLLM OpenAI-compatible endpoint
+transformers>=4.44   # Part 2: load HuggingFace models
+torch                # Part 2: PyTorch backend
+accelerate           # Part 2: device mapping (auto/CUDA/CPU)
+repeng               # Part 2: steering vector training & application
+python-dotenv        # config from .env files (optional)
