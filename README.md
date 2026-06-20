@@ -7,15 +7,20 @@ A hands-on series exploring how language models think and how we can steer them 
 | Date | Exercise | What We Do | Who |
 |---|---|---|---|
 | **13 Jun 2026** | [Today] Steering Vectors Basics | Chat with a model → see it think → reach inside and turn the dial | xxx |
-| **20 Jun 2026** | Code Usage by Library | Trace how `openai`, `transformers`, `repeng`, and `torch` are actually used under the hood | xxx |
+| ~~**20 Jun 2026**~~ | ~~Code Usage by Library~~ | ~~Trace how `openai`, `transformers`, `repeng`, and `torch` are actually used under the hood~~ | xxx |
+| **20 Jun 2026** | Handmade Steering Vector | Added a "happy" direction into the residual stream via a forward hook during generation; the grocery-store reply went neutral → cheerful at ×2 → incoherent at ×4. For more info check learn_modules/run3.py and run3_output.log| xxx |
 | **27 Jun 2026** | SAE Code & Clusters | Sparse Autoencoders: decompose model activations into interpretable features and cluster them | xxx |
 | **11 Jul 2026** | Final Blogpost | Write it all up — from API call to steering to SAE clusters — as a polished post | xxx |
 
 ---
 
-## Today's Exercise — 13 Jun 2026
+## Today's Exercise
 
+### 13 Jun 2026
 We go from "AI just answers questions" to "we can steer its internal mood dial" in four steps.
+
+### 20 Jun 2026
+Please check learn_modules - run3.py
 
 ### Setup
 
